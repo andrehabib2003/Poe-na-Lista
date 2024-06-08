@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, font, messagebox
 from tkinter import PhotoImage
+from time import sleep
 
 # Cores
 dark_gray = "#212529"
@@ -109,3 +110,4 @@ canvas_interior.bind("<Configure>", lambda e: canvas.configure(scrollregion=canv
 
 # Programa principal
 window.mainloop()
+sleep(10)
